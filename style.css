@@ -1,5 +1,4 @@
 h1{
-    color:red;
     font-family: 'Lato' , sans-serif;
     font-weight: 400;
     font-size: 100px;
@@ -7,4 +6,14 @@ h1{
 
 textarea{
     display: block;
+}
+h1{
+    color:green; 
+    /* su dung mau theo ten cua mau */
+    color: #0000ff ; 
+    /* red green blue */
+    color: rgb(50, 25, 75 );
+    /* rgb phoi mau giua red green blue*/
+    color: rgba( 50, 75, 100, 0.2);
+    /* rgba tuong tu voi rgb, alpha the hien cho do mo cua mau */
 }
