@@ -1,19 +1,21 @@
 *{
-     margin: 0px;
+    margin: 0px;
     padding: 0px ;
     box-sizing: border-box ;
 }
 
-h1{
+#heading1{
     font-family: 'Lato' , sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 100px;
 }
 
-textarea{
+
+#heading1{
+    textarea
     display: block;
 }
-h1{
+#heading1{
     color:green; 
     /* su dung mau theo ten cua mau */
     color: #0000ff ; 
@@ -24,13 +26,36 @@ h1{
     /* rgba tuong tu voi rgb, alpha the hien cho do mo cua mau */
 }
 
-h1{
+#heading1{
     border: solid red ;
-    padding: 50px  0;
-    padding: 20px 0 50px 20px;
-    margin: 50px;
+    border-style: dotted;
+    padding: 20px  0;
     background-color:  blue;
-    padding:  block;
-    height: 100px;
-    width: 400px;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.content{
+    background-color: gray;
+    width: 75% ;
+    float: left;
+}
+
+
+.avatar{
+    width: 25% ;
+     float: left;
+}
+
+.info{
+    background-color: aquamarine;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: bothf;
 }
