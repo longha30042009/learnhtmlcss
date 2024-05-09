@@ -20,7 +20,7 @@
     /* su dung mau theo ten cua mau */
     color: #0000ff ; 
     /* red green blue */
-    color: rgb(50, 25, 75 );f
+    color: rgb(50, 25, 75 );
     /* rgb phoi mau giua red green blue*/
     color: rgba( 50, 75, 100, 0.2);
     /* rgba tuong tu voi rgb, alpha the hien cho do mo cua mau */
@@ -37,6 +37,8 @@
 .container{
     width: 1140px;
     margin: 0 auto;
+    padding-top: 100px;
+    background-color:  papayawhip;
 }
 .content{
     background-color: gray;
@@ -58,4 +60,9 @@
     content: "";
     display: table;
     clear: bothf;
+}
+.date{
+    position: fixed;
+   top: 0px; ;
+   bottom:  0px  ;
 }
